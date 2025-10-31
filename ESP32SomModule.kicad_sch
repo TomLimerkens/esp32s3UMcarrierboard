@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d0aecfb8-5e8c-4d6a-af78-40daf3ed0b45")
+	(paper "A4")
+	(title_block
+		(title "ESP32-S3 UM CarrierBoard")
+		(date "2025-10-30")
+		(rev "A")
+		(company "Tom Limerkens")
+	)
+	(lib_symbols)
+)

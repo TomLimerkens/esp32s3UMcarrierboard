@@ -1,0 +1,62 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5c092c18-735e-4fbc-ac2e-cfa79fa61a15")
+	(paper "A4")
+	(title_block
+		(title "ESP32-S3 UM CarrierBoard")
+		(date "2025-10-30")
+		(rev "A")
+		(company "Tom Limerkens")
+	)
+	(lib_symbols)
+	(sheet
+		(at 128.27 87.63)
+		(size 62.23 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 17 255 8 1.0000)
+		)
+		(uuid "d6e8831a-ca8a-4ae1-b77a-5ce7c7004a0f")
+		(property "Sheetname" "CarrierBoard_BlockModel"
+			(at 128.27 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CarrierBoard_BlockModel.kicad_sch"
+			(at 128.27 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32S3UMCarrierBoard"
+				(path "/5c092c18-735e-4fbc-ac2e-cfa79fa61a15"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
