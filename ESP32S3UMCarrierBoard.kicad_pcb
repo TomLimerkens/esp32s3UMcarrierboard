@@ -930,7 +930,7 @@
 		(path "/d6e8831a-ca8a-4ae1-b77a-5ce7c7004a0f/829668d0-06b9-4bb2-a125-34be3b30bbd9")
 		(sheetname "/CarrierBoard_BlockModel/")
 		(sheetfile "CarrierBoard_BlockModel.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 6.75 3)
 			(end 6.75 1.5)
@@ -1277,7 +1277,7 @@
 		(path "/d6e8831a-ca8a-4ae1-b77a-5ce7c7004a0f/2890db53-12fa-418f-a931-b9a4c3f75e38")
 		(sheetname "/CarrierBoard_BlockModel/")
 		(sheetfile "CarrierBoard_BlockModel.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 6.75 3)
 			(end 6.75 1.5)
@@ -2371,6 +2371,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e6e1fc0-f487-443e-9328-a22a33f1d7ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5001544"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b27aeee1-e79b-4421-8829-3d8b7b9191ba")
 			(effects
 				(font
 					(size 1 1)
