@@ -128,13 +128,13 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1016,
-        "min_connection": 0.127,
-        "min_copper_edge_clearance": 0.2,
+        "min_clearance": 0.1,
+        "min_connection": 0.16,
+        "min_copper_edge_clearance": 0.1,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.2,
+        "min_hole_clearance": 0.1,
         "min_hole_to_hole": 0.2,
-        "min_microvia_diameter": 0.25,
+        "min_microvia_diameter": 0.3,
         "min_microvia_drill": 0.15,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0508,
@@ -142,7 +142,7 @@
         "min_text_thickness": 0.127,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.18,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -230,8 +230,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
-          "drill": 0.3
+          "diameter": 0.6,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -489,38 +489,44 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_drill": 0.15,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.1,
+        "via_diameter": 0.3,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
         "name": "Analog",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "JTAG",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(90, 18, 255)"
       },
       {
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "USBC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(13, 201, 255)"
       }
     ],
@@ -545,6 +551,30 @@
       {
         "netclass": "USBC",
         "pattern": "/CarrierBoard_BlockModel/USB_D-"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "/CarrierBoard_BlockModel/U0RXD"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "/CarrierBoard_BlockModel/U0TXD"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "/CarrierBoard_BlockModel/JTAG_MTMS"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "/CarrierBoard_BlockModel/JTAG_MTDI"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "/CarrierBoard_BlockModel/JTAG_MTDO"
+      },
+      {
+        "netclass": "JTAG",
+        "pattern": "/CarrierBoard_BlockModel/JTAG_MTCK"
       }
     ]
   },
@@ -683,6 +713,10 @@
     [
       "d6e8831a-ca8a-4ae1-b77a-5ce7c7004a0f",
       "CarrierBoard_BlockModel"
+    ],
+    [
+      "e16c34b8-2dde-40c4-8a75-eb0a1a260886",
+      "JTAGInterface"
     ]
   ],
   "text_variables": {}
