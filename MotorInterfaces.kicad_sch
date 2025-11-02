@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "992ff528-277a-4766-a846-47726fd3df97")
+	(paper "A4")
+	(title_block
+		(title "ESP32-S3 UM CarrierBoard")
+		(date "2025-10-30")
+		(rev "A")
+		(company "Tom Limerkens")
+	)
+	(lib_symbols)
+	(sheet
+		(at 66.04 60.96)
+		(size 33.02 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "eb7ea0a3-b819-4631-8520-656eace16706")
+		(property "Sheetname" "TMC2209-StepperDriver"
+			(at 66.04 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TMC2209-StepperDriver.kicad_sch"
+			(at 66.04 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32S3UMCarrierBoard"
+				(path "/5c092c18-735e-4fbc-ac2e-cfa79fa61a15/d6e8831a-ca8a-4ae1-b77a-5ce7c7004a0f/09e75a61-d63c-4f65-a573-dc3df0ce6fca"
+					(page "5")
+				)
+			)
+		)
+	)
+)

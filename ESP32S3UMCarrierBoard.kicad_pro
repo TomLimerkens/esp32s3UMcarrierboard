@@ -717,6 +717,14 @@
     [
       "e16c34b8-2dde-40c4-8a75-eb0a1a260886",
       "JTAGInterface"
+    ],
+    [
+      "09e75a61-d63c-4f65-a573-dc3df0ce6fca",
+      "MotorInterfaces"
+    ],
+    [
+      "eb7ea0a3-b819-4631-8520-656eace16706",
+      "TMC2209-StepperDriver"
     ]
   ],
   "text_variables": {}

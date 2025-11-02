@@ -5048,7 +5048,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 157.48) (xy 172.72 157.48)
+			(xy 48.26 154.94) (xy 58.42 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5058,7 +5058,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 154.94) (xy 172.72 154.94)
+			(xy 48.26 152.4) (xy 58.42 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5148,7 +5148,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 137.16) (xy 154.94 139.7)
+			(xy 40.64 134.62) (xy 40.64 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5218,7 +5218,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 152.4) (xy 172.72 152.4)
+			(xy 48.26 149.86) (xy 58.42 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5568,7 +5568,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 144.78) (xy 172.72 144.78)
+			(xy 48.26 142.24) (xy 58.42 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5608,7 +5608,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 149.86) (xy 172.72 149.86)
+			(xy 48.26 147.32) (xy 58.42 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5667,7 +5667,7 @@
 		(uuid "27dc09d6-1665-4c55-9db2-f8827edca78f")
 	)
 	(label "RESET"
-		(at 170.18 144.78 0)
+		(at 55.88 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5677,7 +5677,7 @@
 		(uuid "2e4ef056-9c17-4515-8090-3f768f110c13")
 	)
 	(label "JTAG_MTDO"
-		(at 170.18 154.94 0)
+		(at 55.88 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5707,7 +5707,7 @@
 		(uuid "4ed05a8f-4ddd-4199-928a-6c8af52547c3")
 	)
 	(label "JTAG_MTMS"
-		(at 170.18 149.86 0)
+		(at 55.88 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5727,7 +5727,7 @@
 		(uuid "5c6bb0fd-7af6-4308-a3c4-dbc5bcf4ca38")
 	)
 	(label "JTAG_MTCK"
-		(at 170.18 157.48 0)
+		(at 55.88 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5737,7 +5737,7 @@
 		(uuid "87243102-e996-452f-9f6b-072ea0f5d2c1")
 	)
 	(label "JTAG_MTDI"
-		(at 170.18 152.4 0)
+		(at 55.88 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6458,7 +6458,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 154.94 137.16 0)
+		(at 40.64 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6467,7 +6467,7 @@
 		(fields_autoplaced yes)
 		(uuid "24025166-46f2-4925-ad0d-2aff4951727b")
 		(property "Reference" "#PWR022"
-			(at 154.94 140.97 0)
+			(at 40.64 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6476,7 +6476,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 154.94 132.08 0)
+			(at 40.64 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +6484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 137.16 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6493,7 +6493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 137.16 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 154.94 137.16 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9164,7 +9164,49 @@
 		)
 	)
 	(sheet
-		(at 139.7 139.7)
+		(at 226.06 22.86)
+		(size 45.72 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "09e75a61-d63c-4f65-a573-dc3df0ce6fca")
+		(property "Sheetname" "MotorInterfaces"
+			(at 226.06 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MotorInterfaces.kicad_sch"
+			(at 226.06 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32S3UMCarrierBoard"
+				(path "/5c092c18-735e-4fbc-ac2e-cfa79fa61a15/d6e8831a-ca8a-4ae1-b77a-5ce7c7004a0f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 137.16)
 		(size 22.86 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9180,7 +9222,7 @@
 		)
 		(uuid "e16c34b8-2dde-40c4-8a75-eb0a1a260886")
 		(property "Sheetname" "JTAGInterface"
-			(at 139.7 138.9884 0)
+			(at 25.4 136.4484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9189,7 +9231,7 @@
 			)
 		)
 		(property "Sheetfile" "JTAGInterface.kicad_sch"
-			(at 139.7 161.8746 0)
+			(at 25.4 159.3346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9198,7 +9240,7 @@
 			)
 		)
 		(pin "TCK" output
-			(at 162.56 157.48 0)
+			(at 48.26 154.94 0)
 			(uuid "2d2d9d87-bfbd-4ca3-ae32-43452db6f11f")
 			(effects
 				(font
@@ -9208,7 +9250,7 @@
 			)
 		)
 		(pin "TMS" output
-			(at 162.56 149.86 0)
+			(at 48.26 147.32 0)
 			(uuid "f512b611-a24d-443a-9722-7154d4217b89")
 			(effects
 				(font
@@ -9218,7 +9260,7 @@
 			)
 		)
 		(pin "VREF" input
-			(at 154.94 139.7 90)
+			(at 40.64 137.16 90)
 			(uuid "0599cc5a-3eb5-4918-ba3a-b7a41b249e25")
 			(effects
 				(font
@@ -9228,7 +9270,7 @@
 			)
 		)
 		(pin "TDO" output
-			(at 162.56 154.94 0)
+			(at 48.26 152.4 0)
 			(uuid "213567bd-db03-4e6a-af0b-98cc51f2db85")
 			(effects
 				(font
@@ -9238,7 +9280,7 @@
 			)
 		)
 		(pin "~{RESET}" output
-			(at 162.56 144.78 0)
+			(at 48.26 142.24 0)
 			(uuid "0993f74e-4d9b-48d7-839d-4f7a5b953980")
 			(effects
 				(font
@@ -9248,7 +9290,7 @@
 			)
 		)
 		(pin "TDI" output
-			(at 162.56 152.4 0)
+			(at 48.26 149.86 0)
 			(uuid "7d2abc94-313d-4a70-a580-ca6eb7ccc0fd")
 			(effects
 				(font
