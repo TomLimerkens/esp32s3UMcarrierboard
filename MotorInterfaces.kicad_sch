@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "992ff528-277a-4766-a846-47726fd3df97")
+	(uuid "37f9f138-6624-43f3-9592-b216c6bd724b")
 	(paper "A4")
 	(title_block
 		(title "ESP32-S3 UM CarrierBoard")
